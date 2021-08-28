@@ -40,4 +40,4 @@ Users should be able to:
 ## Author
 
 - Website - [Ricardo Augustine](https://www.linkedin.com/in/ricardo-augustine-41280459/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@r-augustine](https://www.frontendmentor.io/profile/@r-augustine)
