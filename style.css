@@ -1,0 +1,160 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html,
+body {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Red Hat Display", "sans-serif";
+}
+
+body {
+  background: hsl(225, 100%, 94%);
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0.12rem 0.5rem 18px rgba(0, 0, 0, 0.11);
+  overflow: hidden;
+}
+
+.card .content {
+  padding: 1.2em 2em;
+}
+
+.card .content .title {
+  text-align: center;
+  font-size: 2.1rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.card .content .description {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: normal;
+}
+
+.card .content .meta {
+  padding: 1rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+.card .content .meta .item {
+  display: flex;
+  align-items: center;
+}
+
+.card .content .meta .item .plan {
+  color: hsl(223, 47%, 23%);
+}
+
+.card .content .meta .price {
+  color: hsl(224, 23%, 55%);
+}
+
+.card .content .meta a,
+.card .content .meta a:visited {
+  /* color: #382ae1; */
+  /* color: hsl(245, 75%, 52%); */
+  color: hsl(245, 75%, 52%);
+}
+
+.card .content .meta a:hover {
+  color: #382ae1ba;
+  text-decoration: none;
+}
+
+.item div:last-child {
+  line-height: 1.5;
+}
+
+.card .content .meta .img.wrapper {
+  width: 60px;
+  height: 60px;
+  margin-right: 1em;
+}
+
+.card .content .card-actions a.btn {
+  display: block;
+  padding: 1.12em 0;
+  margin-bottom: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
+
+.card .content .card-actions a.btn:first-of-type {
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 10px rgba(0, 0, 0, 0.37);
+  transition: all 50ms ease-in-out;
+}
+
+.card .content .card-actions a.btn:first-of-type:hover {
+  background-color: #382ae1ba;
+  box-shadow: 0 0.6rem 15px rgba(0, 0, 0, 0.37);
+  transform: scale(1.01);
+}
+
+.card .content .card-actions a.btn:last-of-type {
+  color: hsl(224, 23%, 55%);
+  transition: all 100ms ease-in-out;
+}
+
+.card .content .card-actions a.btn:last-of-type:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width: 791px) {
+  header {
+    background: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-position: bottom;
+    height: 510px;
+  }
+}
